@@ -2,8 +2,8 @@
 import { Star } from "lucide-react";
 import { useGetAllPost } from "@/hooks/post.hook";
 import { Post } from "@/core/post.core";
-import { Skeleton } from "./ui/skeleton";
-import SidebarSection from "./post/sidebar-section";
+import { Skeleton } from "../ui/skeleton";
+import SidebarSection from "./sidebar-section";
 
 
 export default function BlogSidebar() {

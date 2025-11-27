@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Link from "next/link";
-import BlogCard from "@/components/blog-card";
+import BlogCard from "@/components/post/blog-card";
 import { ArrowRight } from "lucide-react";
 import { useGetAllPost } from "@/hooks/post.hook";
 import { Skeleton } from "@/components/ui/skeleton";

@@ -1,11 +1,11 @@
 "use client"
-import BlogHero from "@/components/blog-hero";
-import BlogCard from "@/components/blog-card";
+import BlogHero from "@/components/post/blog-hero";
+import BlogCard from "@/components/post/blog-card";
 import { useGetAllPost } from "@/hooks/post.hook";
 import { Skeleton } from "@/components/ui/skeleton";
-import BlogSidebar from "@/components/blog-sidebar";
 import { useInView } from "react-intersection-observer";
 import React from "react";
+import BlogSidebar from "@/components/post/blog-sidebar";
 // export const metadata = {
 //   title: "Blog - Todos os Artigos",
 //   description: "Explore todos os nossos artigos e histórias",
