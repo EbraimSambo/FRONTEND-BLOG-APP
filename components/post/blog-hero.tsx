@@ -63,9 +63,9 @@ export default function BlogHero() {
             onChange={(e) => setSearchQuery(e.target.value)}
             className="flex-1 py-4 pl-16 pr-6 text-gray-900 placeholder-gray-500 focus:outline-none bg-transparent"
           />
-          <button className="bg-blue-600 text-white px-8 py-4 font-medium hover:bg-blue-700 transition-colors">
+          {/* <button className="bg-blue-600 text-white px-8 py-4 font-medium hover:bg-blue-700 transition-colors">
             Buscar
-          </button>
+          </button> */}
         </motion.div>
       </motion.div>
     </section>
